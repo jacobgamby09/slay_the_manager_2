@@ -1,5 +1,5 @@
 import { useGameStore } from './store/useGameStore';
-import { Card, Zone } from './types/game';
+import type { Card, Zone } from './types/game';
 import { Zap, Shield, Swords, User } from 'lucide-react';
 
 const POSITION_COLORS: Record<string, string> = {

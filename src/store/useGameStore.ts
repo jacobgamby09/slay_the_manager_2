@@ -1,5 +1,5 @@
-import { create } from 'zustand';
-import { Card, GameState, Zone } from '../types/game';
+import { create } from 'zustand/react';
+import type { Card, GameState, Zone } from '../types/game';
 
 const makeCard = (
   id: string,
